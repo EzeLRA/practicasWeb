@@ -1,10 +1,14 @@
 header{
     font-family: 'Roboto' , sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     
     background-color: white;
-    border: 10px solid black;
-    padding: 5px;
+    border: 1px solid black;
+    padding: 2cm;
+    
+    margin-top: 2cm;
+    margin-right: 15cm;
+    margin-left: 2cm;
     
     text-align: center;
 
@@ -19,9 +23,12 @@ header{
     padding: 10px;
     
     text-align: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
-body{
-    background-color: #ccc;
+#image{
+    background-image: url(resources/backgroundImg);
+    background-color: rgba(0,0,0,0.8);
+    
+    
 }
